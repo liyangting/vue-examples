@@ -2,7 +2,9 @@
 
 网站：https://liyangting.github.io/vue-examples/
 
-根目录及子目录中的 `.vue`、`.ts` 文件会自动加入示例阅读站，按文件名显示。源码只作阅读展示，不执行代码片段。
+根目录及子目录中的 `.vue`、`.ts` 文件会自动加入示例阅读站，按文件名显示。每个示例生成一个独立页面，点击目录会切换页面，支持直接访问和刷新。源码只作阅读展示，不执行代码片段。
+
+当前 GitHub Actions 使用 `scripts/build.py` 生成网站，`.vitepress/config.mts` 尚未接入发布流程。
 
 ## 发布
 
